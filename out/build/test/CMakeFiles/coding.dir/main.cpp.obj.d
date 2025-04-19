@@ -136,5 +136,4 @@ CMakeFiles/coding.dir/main.cpp.obj: D:\code1\zhaiyiyou_cpp\main.cpp \
  C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/bits/istream.tcc \
  C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/cstring \
  C:/PROGRA~1/REDPAN~1/mingw64/x86_64-w64-mingw32/include/string.h \
- C:/PROGRA~1/REDPAN~1/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
- C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/climits
+ C:/PROGRA~1/REDPAN~1/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h

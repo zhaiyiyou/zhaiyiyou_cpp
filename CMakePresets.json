@@ -14,5 +14,13 @@
                 "CMAKE_BUILD_TYPE": "Debug"
             }
         }
+    ],
+    "testPresets": [
+        {
+            "name": "debug",
+            "description": "",
+            "displayName": "",
+            "configurePreset": "test"
+        }
     ]
 }
