@@ -10,8 +10,10 @@ vector <pair<int,int>>a[100005];
 queue<pair<int,int>>q;
 int d[100005];
 bool v[100005];
+// 有负环
+int cnt[100005];
 
-void spfa(){
+bool spfa(){
     memset(d, 0x3f, sizeof(d));
     d[s]=0;
     v[s] = 1;
@@ -25,6 +27,10 @@ void spfa(){
             int w = a[to][i].second;
             if (d[t] > d[to] + w) {
                 d[t] = d[to] + w;
+                cnt[t] = cnt[to] + 1;
+                if (cnt[t] >= n) {
+                    return true;
+                }
                 if (!v[t]) {
                     q.push({t, d[t]});
                     v[t] = 1;
@@ -32,6 +38,7 @@ void spfa(){
             }
         }
     }
+    return false;
 }
 
 int main()
@@ -45,7 +52,16 @@ int main()
         a[y].push_back({x, z});
     }
     s = 1;
-    spfa();
+    bool flag = spfa();
+    if (flag) {
+        cout << "Yes" << endl;
+        cout << d[n] << endl;
+        return 0;
+    }else{
+        cout << "No" << endl;
+        cout << d[n] << endl;
+    }
+
     cout << d[n] << endl;
     return 0;
 }
