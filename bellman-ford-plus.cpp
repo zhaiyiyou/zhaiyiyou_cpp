@@ -21,7 +21,15 @@ void spfa(){
         q.pop();
         v[to] = 0; 
         for(int i=0;i<a[to].size();i++){
-            
+            int t = a[to][i].first;
+            int w = a[to][i].second;
+            if (d[t] > d[to] + w) {
+                d[t] = d[to] + w;
+                if (!v[t]) {
+                    q.push({t, d[t]});
+                    v[t] = 1;
+                }
+            }
         }
     }
 }
@@ -36,5 +44,8 @@ int main()
         a[x].push_back({y, z});
         a[y].push_back({x, z});
     }
+    s = 1;
+    spfa();
+    cout << d[n] << endl;
     return 0;
 }
