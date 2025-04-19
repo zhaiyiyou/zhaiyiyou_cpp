@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/code1/zhaiyiyou_cpp/bellman-ford-plus.cpp" "CMakeFiles/coding.dir/bellman-ford-plus.cpp.obj" "gcc" "CMakeFiles/coding.dir/bellman-ford-plus.cpp.obj.d"
+  "D:/code1/zhaiyiyou_cpp/main.cpp" "CMakeFiles/coding.dir/main.cpp.obj" "gcc" "CMakeFiles/coding.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

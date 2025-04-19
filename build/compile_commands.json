@@ -1,8 +1,8 @@
 [
 {
   "directory": "D:/code1/zhaiyiyou_cpp/build",
-  "command": "C:\\PROGRA~1\\REDPAN~1\\mingw64\\bin\\C__~1.EXE   -g -o CMakeFiles\\coding.dir\\bellman-ford-plus.cpp.obj -c D:\\code1\\zhaiyiyou_cpp\\bellman-ford-plus.cpp",
-  "file": "D:/code1/zhaiyiyou_cpp/bellman-ford-plus.cpp",
-  "output": "CMakeFiles/coding.dir/bellman-ford-plus.cpp.obj"
+  "command": "C:\\PROGRA~1\\REDPAN~1\\mingw64\\bin\\C__~1.EXE   -g -o CMakeFiles\\coding.dir\\main.cpp.obj -c D:\\code1\\zhaiyiyou_cpp\\main.cpp",
+  "file": "D:/code1/zhaiyiyou_cpp/main.cpp",
+  "output": "CMakeFiles/coding.dir/main.cpp.obj"
 }
 ]

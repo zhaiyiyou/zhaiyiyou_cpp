@@ -71,28 +71,28 @@ include CMakeFiles/coding.dir/flags.make
 CMakeFiles/coding.dir/codegen:
 .PHONY : CMakeFiles/coding.dir/codegen
 
-CMakeFiles/coding.dir/bellman-ford-plus.cpp.obj: CMakeFiles/coding.dir/flags.make
-CMakeFiles/coding.dir/bellman-ford-plus.cpp.obj: D:/code1/zhaiyiyou_cpp/bellman-ford-plus.cpp
-CMakeFiles/coding.dir/bellman-ford-plus.cpp.obj: CMakeFiles/coding.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code1\zhaiyiyou_cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/coding.dir/bellman-ford-plus.cpp.obj"
-	C:\PROGRA~1\REDPAN~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coding.dir/bellman-ford-plus.cpp.obj -MF CMakeFiles\coding.dir\bellman-ford-plus.cpp.obj.d -o CMakeFiles\coding.dir\bellman-ford-plus.cpp.obj -c D:\code1\zhaiyiyou_cpp\bellman-ford-plus.cpp
+CMakeFiles/coding.dir/main.cpp.obj: CMakeFiles/coding.dir/flags.make
+CMakeFiles/coding.dir/main.cpp.obj: D:/code1/zhaiyiyou_cpp/main.cpp
+CMakeFiles/coding.dir/main.cpp.obj: CMakeFiles/coding.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code1\zhaiyiyou_cpp\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/coding.dir/main.cpp.obj"
+	C:\PROGRA~1\REDPAN~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/coding.dir/main.cpp.obj -MF CMakeFiles\coding.dir\main.cpp.obj.d -o CMakeFiles\coding.dir\main.cpp.obj -c D:\code1\zhaiyiyou_cpp\main.cpp
 
-CMakeFiles/coding.dir/bellman-ford-plus.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/coding.dir/bellman-ford-plus.cpp.i"
-	C:\PROGRA~1\REDPAN~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code1\zhaiyiyou_cpp\bellman-ford-plus.cpp > CMakeFiles\coding.dir\bellman-ford-plus.cpp.i
+CMakeFiles/coding.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/coding.dir/main.cpp.i"
+	C:\PROGRA~1\REDPAN~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code1\zhaiyiyou_cpp\main.cpp > CMakeFiles\coding.dir\main.cpp.i
 
-CMakeFiles/coding.dir/bellman-ford-plus.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/coding.dir/bellman-ford-plus.cpp.s"
-	C:\PROGRA~1\REDPAN~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code1\zhaiyiyou_cpp\bellman-ford-plus.cpp -o CMakeFiles\coding.dir\bellman-ford-plus.cpp.s
+CMakeFiles/coding.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/coding.dir/main.cpp.s"
+	C:\PROGRA~1\REDPAN~1\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code1\zhaiyiyou_cpp\main.cpp -o CMakeFiles\coding.dir\main.cpp.s
 
 # Object files for target coding
 coding_OBJECTS = \
-"CMakeFiles/coding.dir/bellman-ford-plus.cpp.obj"
+"CMakeFiles/coding.dir/main.cpp.obj"
 
 # External object files for target coding
 coding_EXTERNAL_OBJECTS =
 
-coding.exe: CMakeFiles/coding.dir/bellman-ford-plus.cpp.obj
+coding.exe: CMakeFiles/coding.dir/main.cpp.obj
 coding.exe: CMakeFiles/coding.dir/build.make
 coding.exe: CMakeFiles/coding.dir/linkLibs.rsp
 coding.exe: CMakeFiles/coding.dir/objects1.rsp

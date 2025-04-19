@@ -522,29 +522,29 @@ ContinuousSubmit/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ContinuousSubmit.dir\build.make CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
-bellman-ford-plus.obj: bellman-ford-plus.cpp.obj
-.PHONY : bellman-ford-plus.obj
+main.obj: main.cpp.obj
+.PHONY : main.obj
 
 # target to build an object file
-bellman-ford-plus.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/bellman-ford-plus.cpp.obj
-.PHONY : bellman-ford-plus.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-bellman-ford-plus.i: bellman-ford-plus.cpp.i
-.PHONY : bellman-ford-plus.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-bellman-ford-plus.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/bellman-ford-plus.cpp.i
-.PHONY : bellman-ford-plus.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-bellman-ford-plus.s: bellman-ford-plus.cpp.s
-.PHONY : bellman-ford-plus.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-bellman-ford-plus.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/bellman-ford-plus.cpp.s
-.PHONY : bellman-ford-plus.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coding.dir\build.make CMakeFiles/coding.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -586,9 +586,9 @@ help:
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
 	@echo ... coding
-	@echo ... bellman-ford-plus.obj
-	@echo ... bellman-ford-plus.i
-	@echo ... bellman-ford-plus.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/coding.dir/bellman-ford-plus.cpp.obj"
-  "CMakeFiles/coding.dir/bellman-ford-plus.cpp.obj.d"
+  "CMakeFiles/coding.dir/main.cpp.obj"
+  "CMakeFiles/coding.dir/main.cpp.obj.d"
   "coding.exe"
   "coding.exe.manifest"
   "coding.pdb"
