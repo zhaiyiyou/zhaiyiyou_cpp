@@ -134,6 +134,18 @@ CMakeFiles/coding.dir/main.cpp.obj: D:\code1\zhaiyiyou_cpp\main.cpp \
  C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/bits/ostream.tcc \
  C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/istream \
  C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/bits/istream.tcc \
+ C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/vector \
+ C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/bits/stl_uninitialized.h \
+ C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/bits/stl_vector.h \
+ C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/bits/stl_bvector.h \
+ C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/bits/vector.tcc \
+ C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/queue \
+ C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/deque \
+ C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/bits/stl_deque.h \
+ C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/bits/deque.tcc \
+ C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/bits/stl_heap.h \
+ C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/bits/stl_queue.h \
+ C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/bits/uses_allocator.h \
  C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/cstring \
  C:/PROGRA~1/REDPAN~1/mingw64/x86_64-w64-mingw32/include/string.h \
  C:/PROGRA~1/REDPAN~1/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h
