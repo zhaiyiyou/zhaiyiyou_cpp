@@ -1,4 +1,4 @@
-CMakeFiles/coding.dir/main.cpp.obj: D:\code1\zhaiyiyou_cpp\main.cpp \
+CMakeFiles/GitHubFixer.dir/main.cpp.obj: D:\code1\zhaiyiyou_cpp\main.cpp \
  C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/iostream \
  C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/REDPAN~1/mingw64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
