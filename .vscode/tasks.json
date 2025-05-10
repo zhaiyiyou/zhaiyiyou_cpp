@@ -10,7 +10,7 @@
 				"-g",
 				"${file}",
 				"-o",
-				"${fileDirname}\\tmp.exe"
+				"${fileDirname}\\main.exe"
 			],
 			"options": {
 				"cwd": "C:/Program Files/RedPanda-Cpp/mingw64/bin"

@@ -4,7 +4,7 @@
             "name": "C/C++: g++.exe 构建和调试活动文件",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}\\tmp.exe",
+            "program": "${fileDirname}\\main.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "C:/Program Files/RedPanda-Cpp/mingw64/bin",
