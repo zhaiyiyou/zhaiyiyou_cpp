@@ -1,10 +1,6 @@
 #include <iostream>
 using namespace std;
 
-#define TEST(func,s,t){\
-    printf("%s(%s,%s) = %d\n",#func , s , t , func(s,t));\
-}
-
 int brute_force(const char *s,const char *t){//传入文本串和模式串
     for (int i = 0;s[i]; i++)//文本串
     {
@@ -24,7 +20,7 @@ int brute_force(const char *s,const char *t){//传入文本串和模式串
 int main(){
     char s[100],t[100];
     while(scanf("%s%s",&s,&t)){
-        TEST(brute_force,s,t);
+        printf("brute_force(%s,%s) = %d\n", s, t, brute_force(s, t));
     }
     return 0;
 }
